@@ -1,3 +1,5 @@
+
+#  ДЗ для первого семинара
 def maxmin(a, b):
     if int(a) > int(b):
         print(f'Большее число {a}, меньшее число {b}')
@@ -34,6 +36,8 @@ def allEven(value):
         i -= 1
     return arr
 
+
+#  ДЗ для втрого семинара
 def weekday(day):
     day = int(day)
     if day == 1 : print('Понедельник будний день')
@@ -52,6 +56,8 @@ def num3(numbers):
             print(f'Третья цифра {num_3}')
     else:
         print('Третьей цифры нет')
+
+
 
 
 if __name__ == '__main__':
